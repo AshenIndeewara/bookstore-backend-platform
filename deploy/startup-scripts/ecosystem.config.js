@@ -88,7 +88,6 @@ module.exports = {
       env: {
         NODE_ENV: 'production',
         EUREKA_URL: 'http://localhost:8761/eureka',
-        MONGODB_URI: 'mongodb+srv://kasunlakshan3368:OlBYdcOQtTCCpwrV@cluster0webap.ssiwmke.mongodb.net/bookdb?retryWrites=true&w=majority&appName=Cluster0webap',
         GCS_BUCKET_NAME: 'bookstore-covers-bucket'
       },
       error_file: '/var/log/pm2/book-service-error.log',
